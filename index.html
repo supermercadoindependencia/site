@@ -1,190 +1,135 @@
 <!DOCTYPE html>
-<html class="light" lang="pt-br"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Mercado Independência - Ofertas na palma da sua mão</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "primary-blue": "#004aad",
-              "primary-yellow": "#ffde59",
-              "accent-red": "#ee2b2b",
-              "background-light": "#f8f9fc",
-              "background-dark": "#0a0d14",
-            },
-            fontFamily: {
-              "display": ["Plus Jakarta Sans", "sans-serif"]
-            },
-            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+<html lang="pt-br" class="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Supermercado Independência – Ofertas na palma da sua mão</title>
+
+  <!-- Tailwind CDN (OK para landing page Apple) -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primaryBlue: "#004aad",
+            primaryYellow: "#ffde59",
+            accentRed: "#ee2b2b",
+            bgLight: "#f8f9fc",
+          },
+          fontFamily: {
+            display: ["Plus Jakarta Sans", "sans-serif"],
           },
         },
-      }
-    </script>
-<style type="text/tailwindcss">
-        @layer base {
-            body {
-                font-family: 'Plus Jakarta Sans', sans-serif;
-            }
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-    </style>
-</head>
-<body class="bg-background-light dark:bg-background-dark text-[#1a1c21] dark:text-white transition-colors duration-300">
-<div class="relative flex min-h-screen flex-col overflow-x-hidden">
-<header class="sticky top-0 z-50 w-full border-b border-solid border-gray-200 dark:border-white/10 bg-white/90 dark:bg-background-dark/90 backdrop-blur-md px-6 md:px-20 py-4">
-<div class="mx-auto flex max-w-[1200px] items-center justify-between">
-<div class="flex items-center gap-3">
-<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-blue text-primary-yellow">
-<span class="material-symbols-outlined text-2xl">shopping_basket</span>
-</div>
-<h2 class="text-xl font-extrabold tracking-tight text-primary-blue dark:text-white">Mercado Independência</h2>
-</div>
-<nav class="hidden md:flex items-center gap-10">
-<a class="text-sm font-bold text-gray-700 hover:text-primary-blue dark:text-gray-300 dark:hover:text-primary-yellow transition-colors" href="#">Ofertas</a>
-<a class="text-sm font-bold text-gray-700 hover:text-primary-blue dark:text-gray-300 dark:hover:text-primary-yellow transition-colors" href="#">Lojas</a>
-<a class="text-sm font-bold text-gray-700 hover:text-primary-blue dark:text-gray-300 dark:hover:text-primary-yellow transition-colors" href="#">Contato</a>
-</nav>
-<div class="flex items-center gap-4">
-<button class="flex h-11 items-center justify-center rounded-full bg-primary-blue px-6 text-sm font-bold text-white shadow-lg shadow-primary-blue/20 transition-transform hover:scale-105 active:scale-95">
-                    Baixar App
-                </button>
-</div>
-</div>
-</header>
-<main class="flex-1">
-<section class="relative px-4 py-8 md:px-20 md:py-12">
-<div class="mx-auto max-w-[1200px]">
-<div class="relative flex min-h-[560px] flex-col items-center justify-center overflow-hidden rounded-2xl p-8 text-center shadow-2xl" data-alt="Close up of fresh organic vegetables and fruits in supermarket aisle" style="background-image: linear-gradient(rgba(0, 74, 173, 0.6), rgba(0, 0, 0, 0.7)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuA0Zf2hgwcOV14gdFPslEvTCGlysk7lPK5LCZH2A4mnVmOoFMVaAsDsVun6_NYpP8MzRgsL9-RgRXrqT3rnMzDz_LIMK4YTq5ULujl05H9soPUpYD3fE0lfF6nDayAcKWZ_xSOYszOL-dHUnyuJJ1_dn8C2nSbo9P_tgKxZDvoRJ6MQ8e0liQVxvBltC8Ig1bfuEKqi_1pU4lnBnDQ8BxlY2nOQNaLOw-Ckn87SfFyGtVJtC_qs46xZmVyY_0DZOXuXLhJQq-7RAP6w'); background-size: cover; background-position: center;">
-<div class="max-w-[800px] space-y-6 relative z-10">
-<span class="inline-block px-4 py-1.5 bg-accent-red text-white text-xs font-bold uppercase tracking-widest rounded-full mb-2">Novidades</span>
-<h1 class="text-4xl font-black leading-tight tracking-tight text-white md:text-6xl">
-                            Baixe o App do <span class="text-primary-yellow">Mercado Independência</span>
-</h1>
-<p class="text-lg font-medium text-white/90 md:text-xl">
-                            Ofertas exclusivas e compras na palma da sua mão. Economia e frescor com a conveniência que você merece.
-                        </p>
-<div class="flex flex-wrap items-center justify-center gap-4 pt-6">
-<button class="flex min-w-[200px] items-center justify-center gap-3 rounded-xl bg-white px-8 py-4 text-primary-blue transition-all hover:bg-primary-yellow hover:text-primary-blue hover:shadow-xl group">
-<span class="material-symbols-outlined text-3xl">ios</span>
-<div class="text-left">
-<p class="text-[10px] leading-none opacity-70 font-bold uppercase">Baixar na</p>
-<p class="text-lg font-extrabold leading-none">App Store</p>
-</div>
-</button>
-<button class="flex min-w-[200px] items-center justify-center gap-3 rounded-xl bg-primary-yellow px-8 py-4 text-primary-blue transition-all hover:bg-white hover:shadow-xl border-2 border-primary-yellow group">
-<span class="material-symbols-outlined text-3xl">play_apps</span>
-<div class="text-left">
-<p class="text-[10px] leading-none opacity-70 font-bold uppercase">Disponível no</p>
-<p class="text-lg font-extrabold leading-none">Google Play</p>
-</div>
-</button>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="bg-white dark:bg-background-dark/50 py-20 px-4 md:px-20">
-<div class="mx-auto max-w-[1200px]">
-<div class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
-<div class="space-y-4">
-<h2 class="text-3xl font-black text-primary-blue dark:text-white md:text-4xl">Informações da Loja</h2>
-<p class="max-w-xl text-lg text-gray-600 dark:text-gray-400">Encontre a unidade mais próxima ou fale conosco agora mesmo. Atendimento humanizado e rápido.</p>
-</div>
-<div class="h-1 w-24 bg-accent-red rounded-full hidden md:block"></div>
-</div>
-<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
-<div class="group flex flex-col gap-6 rounded-2xl border border-gray-100 dark:border-white/5 bg-gray-50/50 dark:bg-background-dark p-8 transition-all hover:bg-white dark:hover:bg-white/5 hover:shadow-2xl hover:border-primary-blue/20">
-<div class="flex h-14 w-14 items-center justify-center rounded-xl bg-primary-blue/10 text-primary-blue group-hover:bg-primary-blue group-hover:text-primary-yellow transition-all duration-300">
-<span class="material-symbols-outlined text-3xl">location_on</span>
-</div>
-<div class="space-y-2">
-<h3 class="text-xl font-extrabold text-primary-blue dark:text-white">Endereço</h3>
-<p class="text-gray-600 dark:text-gray-400 font-medium leading-relaxed">Rua da Independência, 100<br/>Centro, São Paulo - SP</p>
-</div>
-</div>
-<div class="group flex flex-col gap-6 rounded-2xl border border-gray-100 dark:border-white/5 bg-gray-50/50 dark:bg-background-dark p-8 transition-all hover:bg-white dark:hover:bg-white/5 hover:shadow-2xl hover:border-primary-blue/20">
-<div class="flex h-14 w-14 items-center justify-center rounded-xl bg-primary-yellow/20 text-primary-blue group-hover:bg-primary-yellow group-hover:text-primary-blue transition-all duration-300">
-<span class="material-symbols-outlined text-3xl">call</span>
-</div>
-<div class="space-y-2">
-<h3 class="text-xl font-extrabold text-primary-blue dark:text-white">Telefone</h3>
-<p class="text-gray-600 dark:text-gray-400 font-medium leading-relaxed">(11) 99999-9999<br/>WhatsApp disponível 24h</p>
-</div>
-</div>
-<div class="group flex flex-col gap-6 rounded-2xl border border-gray-100 dark:border-white/5 bg-gray-50/50 dark:bg-background-dark p-8 transition-all hover:bg-white dark:hover:bg-white/5 hover:shadow-2xl hover:border-primary-blue/20">
-<div class="flex h-14 w-14 items-center justify-center rounded-xl bg-accent-red/10 text-accent-red group-hover:bg-accent-red group-hover:text-white transition-all duration-300">
-<span class="material-symbols-outlined text-3xl">mail</span>
-</div>
-<div class="space-y-2">
-<h3 class="text-xl font-extrabold text-primary-blue dark:text-white">E-mail</h3>
-<p class="text-gray-600 dark:text-gray-400 font-medium leading-relaxed">contato@mercadoindependencia.com.br<br/>Retorno em até 24h</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="px-4 py-16 md:px-20 bg-primary-blue/5">
-<div class="mx-auto max-w-[1200px] rounded-3xl bg-primary-blue p-8 md:p-16 text-center text-white relative overflow-hidden">
-<div class="absolute top-0 right-0 -mr-16 -mt-16 h-64 w-64 rounded-full bg-primary-yellow/10"></div>
-<div class="absolute bottom-0 left-0 -ml-16 -mb-16 h-64 w-64 rounded-full bg-accent-red/10"></div>
-<div class="relative z-10">
-<h2 class="text-3xl font-black mb-4 md:text-4xl text-primary-yellow">Receba ofertas exclusivas</h2>
-<p class="mb-10 text-lg text-white/80 max-w-2xl mx-auto font-medium">Cadastre-se para receber o encarte semanal diretamente no seu e-mail e economize de verdade.</p>
-<div class="mx-auto flex max-w-lg flex-col gap-3 sm:flex-row">
-<input class="flex-1 rounded-full border-2 border-transparent px-8 py-4 text-black focus:border-primary-yellow focus:ring-0 outline-none font-medium" placeholder="Digite seu melhor e-mail" type="email"/>
-<button class="rounded-full bg-primary-yellow px-10 py-4 font-black text-primary-blue transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-xl">
-                            QUERO OFERTAS
-                        </button>
-</div>
-<p class="mt-6 text-xs text-white/60">Respeitamos sua privacidade. Cancele a qualquer momento.</p>
-</div>
-</div>
-</section>
-</main>
-<footer class="bg-white dark:bg-background-dark border-t border-gray-200 dark:border-white/10 px-4 py-16 md:px-20">
-<div class="mx-auto max-w-[1200px]">
-<div class="flex flex-col items-center justify-between gap-12 md:flex-row">
-<div class="flex flex-col items-center md:items-start gap-4">
-<div class="flex items-center gap-3">
-<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-blue text-primary-yellow">
-<span class="material-symbols-outlined text-2xl">shopping_basket</span>
-</div>
-<span class="text-2xl font-black text-primary-blue dark:text-white">Mercado Independência</span>
-</div>
-<p class="text-sm text-gray-500 max-w-xs text-center md:text-left">Levando o melhor do campo para a sua mesa com preços independentes.</p>
-</div>
-<div class="flex flex-wrap justify-center gap-x-12 gap-y-4">
-<a class="text-sm font-bold text-gray-600 hover:text-primary-blue dark:text-gray-400 dark:hover:text-primary-yellow transition-colors" href="#">Privacidade</a>
-<a class="text-sm font-bold text-gray-600 hover:text-primary-blue dark:text-gray-400 dark:hover:text-primary-yellow transition-colors" href="#">Termos</a>
-<a class="text-sm font-bold text-gray-600 hover:text-primary-blue dark:text-gray-400 dark:hover:text-primary-yellow transition-colors" href="#">Trabalhe Conosco</a>
-</div>
-<div class="flex gap-4">
-<a class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-white/5 text-primary-blue hover:bg-primary-blue hover:text-white transition-all shadow-sm" href="#">
-<span class="material-symbols-outlined">camera</span>
-</a>
-<a class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-white/5 text-primary-blue hover:bg-primary-blue hover:text-white transition-all shadow-sm" href="#">
-<span class="material-symbols-outlined">social_leaderboard</span>
-</a>
-<a class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-white/5 text-primary-blue hover:bg-primary-blue hover:text-white transition-all shadow-sm" href="#">
-<span class="material-symbols-outlined">chat</span>
-</a>
-</div>
-</div>
-<div class="mt-16 pt-8 border-t border-gray-100 dark:border-white/5 text-center">
-<p class="text-xs font-bold text-gray-400 dark:text-gray-600 uppercase tracking-widest">
-                    © 2024 Mercado Independência. Qualidade e Economia em primeiro lugar.
-                </p>
-</div>
-</div>
-</footer>
-</div>
+      },
+    }
+  </script>
 
-</body></html>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-bgLight text-gray-900">
+
+<!-- HEADER -->
+<header class="sticky top-0 bg-white border-b border-gray-200 z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
+    <!-- LOGO (espaço reservado) -->
+    <div class="flex items-center gap-3">
+      <img
+        src="site/logo.png"
+        alt="Supermercado Independência"
+        class="h-10 w-auto"
+        onerror="this.style.display='none'"
+      />
+      <span class="text-xl font-extrabold text-primaryBlue">
+        Supermercado Independência
+      </span>
+    </div>
+
+    <a
+      href="#"
+      class="bg-primaryBlue text-white px-6 py-2 rounded-full font-bold hover:opacity-90"
+    >
+      Baixar App
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section
+  class="relative min-h-[520px] flex items-center justify-center text-center px-6"
+  style="
+    background-image:
+      linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.65)),
+      url('assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+  "
+>
+  <div class="max-w-3xl text-white">
+    <h1 class="text-4xl md:text-6xl font-black mb-6">
+      O app do <span class="text-primaryYellow">Supermercado Independência</span>
+    </h1>
+
+    <p class="text-lg md:text-xl mb-8 text-white/90">
+      Ofertas exclusivas, praticidade e economia direto no seu celular.
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a class="bg-white text-primaryBlue font-extrabold px-8 py-4 rounded-xl">
+        App Store
+      </a>
+      <a class="bg-primaryYellow text-primaryBlue font-extrabold px-8 py-4 rounded-xl">
+        Google Play
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- INFORMAÇÕES -->
+<section class="max-w-6xl mx-auto px-6 py-20 grid gap-8 md:grid-cols-3">
+  <div class="bg-white p-8 rounded-2xl shadow">
+    <h3 class="font-black text-lg mb-2">Endereço</h3>
+    <p>Av. Independência<br>Unamar, Cabo Frio - RJ</p>
+  </div>
+
+  <div class="bg-white p-8 rounded-2xl shadow">
+    <h3 class="font-black text-lg mb-2">Telefone</h3>
+    <p>(22) 99906-1112<br>WhatsApp disponível</p>
+  </div>
+
+  <div class="bg-white p-8 rounded-2xl shadow">
+    <h3 class="font-black text-lg mb-2">E-mail</h3>
+    <p>mindependencia9@gmail.com</p>
+  </div>
+</section>
+
+<!-- POLÍTICA DE PRIVACIDADE (CRÍTICO PRA APPLE) -->
+<section class="bg-white border-t border-gray-200 px-6 py-16 text-center">
+  <div class="max-w-3xl mx-auto text-sm text-gray-600">
+    <h2 class="font-bold mb-4">Política de Privacidade</h2>
+    <p>
+      O aplicativo Supermercado Independência não coleta, armazena ou compartilha
+      dados pessoais dos usuários. Para dúvidas ou suporte, entre em contato
+      pelo e-mail mindependencia9@gmail.com
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white border-t border-gray-200 px-6 py-10 text-center text-xs text-gray-400">
+  © 2024 Supermercado Independência. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
